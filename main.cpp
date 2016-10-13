@@ -1,13 +1,14 @@
 #include <iostream>
 #include "sort/BubbleSort.h"
+#include "sort/SelectionSort.h"
 
 using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
-    int a[9] = {3, 9, 5, 3, 10, 6, 3, 3, 3};
+    int a[9] = {9,8,7,6,5,4,3,2,1};
     int size=sizeof(a)/ sizeof(int);
-    BubbleSort::sort(a,size);
+    SelectionSort::sort(a,size);
     for(int i=0;i<size;i++){
         cout<<a[i]<<endl;
     }
