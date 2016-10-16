@@ -13,6 +13,7 @@
 #include "statistics/Min.h"
 #include "datastructure/Queue.h"
 #include "sort/PancakeSort.h"
+#include "sort/CombSort.h"
 
 
 using namespace std;
@@ -21,7 +22,7 @@ int main() {
     cout << "Hello, World!" << endl;
     int a[]={1,10,3,8,5,6,7,4,9,2,-100,1000,999,888,-66};
     int length=sizeof(a)/ sizeof(a[0]);
-    PancakeSort::sort(a,length);
+    CombSort::sort(a,length);
 
 
     for(int i=0;i<length;i++){
