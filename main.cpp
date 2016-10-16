@@ -11,21 +11,24 @@
 #include "statistics/MaxAndMin.h"
 #include "statistics/Max.h"
 #include "statistics/Min.h"
+#include "datastructure/Queue.h"
+#include "sort/PancakeSort.h"
 
 
 using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
-    int a[]={-9,-8,-7,-6,-5,-4,-3,-2,-1,-888,-777,3,5,1,8,4,3,2,88,99,12,101,32,21,101,55,44,123,321,654,456};
+    int a[]={1,10,3,8,5,6,7,4,9,2,-100,1000,999,888,-66};
     int length=sizeof(a)/ sizeof(a[0]);
-    PigeonholeSort::sort(a,length);
-//    for(int i=0;i<length;i++){
-//        cout<<a[i]<<endl;
-//    }
+    PancakeSort::sort(a,length);
 
-    cout<<MaxAndMin::maxmin(a,length)[0]<<endl;
-    cout<<MaxAndMin::maxmin(a,length)[1]<<endl;
+
+    for(int i=0;i<length;i++){
+        cout<<a[i]<<endl;
+    }
+
+
 
 
 
