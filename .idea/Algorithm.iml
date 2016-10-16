@@ -2,19 +2,23 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/statistics/SelectIth.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/statistics/Max.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/statistics/Min.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/statistics/Max.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/statistics/MaxAndMin.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/statistics/Min.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/statistics/MaxAndMin.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/statistics/SelectIth.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/statistics/Max.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/statistics/MaxAndMin.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/BubbleSort.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sort/CycleSort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/InsertSort.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/MergeSort.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/HeapSort.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/QuickSort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/InsertSort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/PancakeSort.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sort/CycleSort.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/SelectionSort.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/CombSort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/CountSort.h" isTestSource="false" />
@@ -34,12 +38,14 @@
       <sourceFolder url="file://$MODULE_DIR$/sort/ShellSort.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/HeapSort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort/SelectionSort.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/datastructure/stack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/datastructure/Queue.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/datastructure/DoubleLinkedList.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/datastructure/Queue.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/datastructure/stack.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/datastructure/DoubleLinkedList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/datastructure/stack.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

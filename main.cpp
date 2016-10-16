@@ -15,19 +15,39 @@
 #include "sort/PancakeSort.h"
 #include "sort/CombSort.h"
 
+#include "statistics/SelectIth.h"
 
 using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
-    int a[]={1,10,3,8,5,6,7,4,9,2,-100,1000,999,888,-66};
+    int a[]={1,3,5,7,8,9,2,4,6,8,10,-2,-4,-6,-8,-10};
     int length=sizeof(a)/ sizeof(a[0]);
-    CombSort::sort(a,length);
-
-
-    for(int i=0;i<length;i++){
-        cout<<a[i]<<endl;
+    int b[length];
+    for(int j=0;j<length;j++){
+        b[j]=a[j];
     }
+
+
+    for(int i=1;i<=length;i++) {
+        int c[length];
+        for(int j=0;j<length;j++){
+            c[j]=b[j];
+        }
+
+        int result = SelectIth::select(c, 0,length - 1, i);
+        cout<<result<<endl;
+    }
+
+
+
+
+
+
+
+//    DoubleLinkedList doubleLinkedList(a,length);
+//    cout<<DoubleLinkedList::search(doubleLinkedList,10);
+
 
 
 
