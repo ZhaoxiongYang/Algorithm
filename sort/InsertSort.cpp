@@ -19,7 +19,7 @@ void InsertSort::sort(int *a, int length) {
 //        }
         //following a better implementatin from Introduction to Algorithm
         int j=i-1;
-        while (j>=0&&tmp<a[j]){
+        while (j>=0&&tmp<a[j]){//tmp<a[j] but not tmp<=a[j],this make the sorting algorithm original index(stable)
             a[j+1]=a[j];
             j--;
         }
