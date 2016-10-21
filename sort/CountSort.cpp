@@ -16,7 +16,7 @@ void CountSort::sort(int *a, int length, int max) {
     for(int i=0;i<max;i++){
         c[i+1]=c[i+1]+c[i];
     }
-    for(int i=length-1;i>=0;i--){
+    for(int i=length-1;i>=0;i--){//index from length-1 to 0,this makes the algorithm stable
         b[--c[a[i]]]=a[i];
 
     }

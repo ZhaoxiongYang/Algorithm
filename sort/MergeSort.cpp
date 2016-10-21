@@ -20,7 +20,7 @@ void MergeSort::merge(int *a, int p, int q, int r) {
     right[r-q]=INT32_MAX;
     int ptr_l=0,ptr_r=0;
     for(int i=0;i<r-p+1;i++){
-        if(left[ptr_l]<right[ptr_r]){
+        if(left[ptr_l]<=right[ptr_r]){ //use <= but not < to make this sorting algorithm stable
             a[p+i]=left[ptr_l++];
         } else{
             a[p+i]=right[ptr_r++];
