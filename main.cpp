@@ -14,6 +14,7 @@
 #include "datastructure/Queue.h"
 #include "sort/PancakeSort.h"
 #include "sort/CombSort.h"
+#include "statistics/EfficiencySelectIth.h"
 
 #include "statistics/SelectIth.h"
 
@@ -21,25 +22,9 @@ using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
-    int a[]={1,3,5,7,8,9,2,4,6,8,10,-2,-4,-6,-8,-10};
+    int a[]={9,8,7,6,5,4,3,2,1,0};
     int length=sizeof(a)/ sizeof(a[0]);
-    int b[length];
-    for(int j=0;j<length;j++){
-        b[j]=a[j];
-    }
-
-
-    for(int i=1;i<=length;i++) {
-        int c[length];
-        for(int j=0;j<length;j++){
-            c[j]=b[j];
-        }
-
-        int result = SelectIth::select(c, 0,length - 1, i);
-        cout<<result<<endl;
-    }
-
-
+//    EfficiencySelectIth::select(a,length,0);
 
 
 
